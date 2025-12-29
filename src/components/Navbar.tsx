@@ -21,13 +21,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <motion.a
-            href="#"
-            className="text-xl font-heading font-bold text-gradient"
-            whileHover={{ scale: 1.05 }}
-          >
-            PC
-          </motion.a>
+          <img src="/logo.svg" alt="Logo" className="h-16 w-16" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-2">
